@@ -8,6 +8,7 @@ Building code in Visual Studio. To build the code, you don't need any additional
 # My Goals:
 - [X] Console
     - [X] Managing your client program
+    - [X] Language selection (Ru or En)
 - [ ] Working with networks
     - [ ] Tracking Nodes
     - [ ] Stable client
