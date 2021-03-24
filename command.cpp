@@ -10,6 +10,7 @@
 #include "language.h"
 #include "setting.h"
 #include "edit_strings.h"
+#include "client.h"
 
 int command()
 {
@@ -35,11 +36,16 @@ int command()
         if (ru) {
             std::cout << syntax << CloseInfoRu << std::endl;
             std::cout << syntax << ResetInfoRu << std::endl;
+            std::cout << syntax << ClientInfoRu << std::endl;
         }
         else {
             std::cout << syntax << CloseInfoEn << std::endl;
             std::cout << syntax << ResetInfoEn << std::endl;
+            std::cout << syntax << ClientInfoEn << std::endl;
         }
+    }
+    else if (cmd == "client") {
+        client(127, 1234);
     }
     else if (cmd == "stop" || cmd == "close" || cmd == "exit") {
         char yon[80];

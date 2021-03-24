@@ -18,5 +18,8 @@ extern string ResetRu;
 extern string CloseInfoEn;
 extern string CloseInfoRu;
 
+extern string ClientInfoEn;
+extern string ClientInfoRu;
+
 extern string ResetInfoEn;
 extern string ResetInfoRu;

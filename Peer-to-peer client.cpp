@@ -1,6 +1,5 @@
 ﻿// Peer-to-peer client.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
-
 #include <iostream>
 #include <string>
 #include <windows.h>
@@ -14,8 +13,6 @@
 #include "loading.h"
 #include "setting.h"
 #include "language.h"
-
-#define PORT 8080 
 
 int server() {
     return 0;

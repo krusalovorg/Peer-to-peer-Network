@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="client.cpp" />
     <ClCompile Include="command.cpp" />
     <ClCompile Include="egit_strings.cpp" />
     <ClCompile Include="formating_console.cpp" />
@@ -149,6 +150,7 @@
     <ClCompile Include="setting.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="client.h" />
     <ClInclude Include="command.h" />
     <ClInclude Include="edit_strings.h" />
     <ClInclude Include="formating_console.h" />

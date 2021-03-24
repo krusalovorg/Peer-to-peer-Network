@@ -12,8 +12,11 @@ string CloseRu = "Вы уверены, что хотите отключиться от одноранговой сети UniCoi
 string ResetEn = "Are you sure you want to do a factory reset? Yes or no:";
 string ResetRu = "Вы уверены что хотите сделать сброс настроек? Да(Yes) или нет(No):";
 
-string ResetInfoEn = "Reset";
-string ResetInfoRu = "Сброс настроек";
+string ResetInfoEn = "reset - Reset";
+string ResetInfoRu = "reset - Сброс настроек";
+
+string ClientInfoEn = "client - Start Peer to Peer client";
+string ClientInfoRu = "client - Запуск Peer to Peer клиента";
 
 string CloseInfoEn = "Stop, close or exit - Shutting down the server";
 string CloseInfoRu = "Stop, close или exit - Выключение сервера";
